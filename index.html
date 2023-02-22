@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nevin's Personal Website</title>
+        <meta author="Nevin Bangloy">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-- INTRODUCTION -->
+        <header>
+            <h1>Nevin Bangloy</h1>
+        </header>
+
+        <!-- ABOUT -->
+        <main>
+            <section id="about">
+                <h2>About</h2>
+                <p>Hello there! My name is Nevin Bangloy and I'm a first-year student at UC Berkeley studying data science and cognitive science. I am interested in software engineering, data analytics, and product management.</p>
+                <div class="flex-container">
+                <div>
+                    <h3>My Skills</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                </div>
+            </section>
+
+            <!-- WORK -->
+            <section id="work">
+                <h2>Work</h2>
+                <div class="grid-container" style="display: flex">
+                <div class="grid-item" style="background-color: lightblue; padding: 10px; margin: 10px;" >
+                    <a href="https://www.boeing.com/" target="_blank">
+                    <img src="nevinboeing.JPG" alt="Nevin's Boeing Internship" width="300" height="200">
+                    <h3>The Boeing Company</h3>
+                    </a>
+                    <h4>Autonomous Systems</h4>
+                    <h5>Global Sales and Marketing Intern</h5>
+                    <h6>Huntington Beach, California</h6>
+                </div>
+                <div class="grid-item" style="background-color: lightblue; padding: 10px; margin: 10px;" >
+                    <a href="https://starburst.aero/" target="_blank">
+                    <img src="nevinnewspace.jpg" alt="Nevin's NewSpace Presentation" width="300" height="200">
+                    <h3>Starburst Aerospace</h3>
+                    </a>
+                    <h4>NewSpace@Berkeley</h4>
+                    <h5>NewSpace Fellow</h5>
+                    <h6>Berkeley, California</h6>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>If you would like to get in touch with me, feel free to reach out on one of the following channels:</p>
+                <ul>
+                <li><a href="https://linkedin.com/in/nevinbangloy" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:njdbangloy@berkeley.edu">Email</a></li>
+                </ul>
+            </section>
+
+            <br>
+            
+            <!-- RANDOM BUTTON -->
+            <section id="randombutton">
+                <h3>Press Below</h3>
+                <div class="container">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <button>Click Me!</button>
+                </a>
+                </div>
+            </section>
+
+            <br>
+
+            <!-- MESSAGE -->
+            <section id="message-section">
+                <h3>Thanks for Visiting</h3>
+                                
+                <form>
+                    <label for="name">Enter your name:</label>
+                    <input type="text" id="name" name="name">
+                    <input type="submit" value="Submit" onclick="event.preventDefault();greetUser();">
+                </form>
+
+
+                <div id="greeting"></div>
+        
+                <script>
+                    function greetUser() {
+                        const name = document.getElementById('name').value;
+                        const greeting = document.getElementById('greeting');
+                        greeting.textContent = `Bye ${name}! Come visit again soon for more updates.`;
+                    }
+                </script>
+            </section>
+
+        </main>
+    </body>
+</html>

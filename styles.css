@@ -1,0 +1,180 @@
+
+  /* General Tags */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  p {
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+
+  /* Default */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Background Color */
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Main */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* About */
+  #about {
+    margin: 40px 0;
+  }
+  
+  #about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #about p {
+    margin-bottom: 20px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex: 1;
+  }
+
+  /* Work */
+  #work {
+    margin: 40px 0;
+  }
+  
+  #work h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Contact */
+  #contact {
+    margin: 40px 0;
+    margin-bottom: 20px;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #contact p {
+    margin-bottom: 20px;
+  }
+  
+  #contact ul {
+    list-style-type: none;
+  }
+  
+  #contact li {
+    margin-bottom: 10px;
+  }
+  
+  /* Randombutton */
+  #randombutton {
+    margin: 40px 0;
+  }
+  
+  #randombutton h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    text-align: left;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Message */
+  #message-section {
+    margin: 40px 0;
+  }
+  
+  #message-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  #greeting {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
